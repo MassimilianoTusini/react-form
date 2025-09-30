@@ -11,12 +11,12 @@ const originalPosts = [
   },
 
   { id: 3, 
-    title: "Come funziona Postman, guida dettagliata"
+    title: "Come funziona Postman, guida."
   },
 
   {
     id: 4,
-    title: "5 domande che potrebbero farti ad un colloquio di lavoro"
+    title: "5 domande che potrebbero farti ad un colloquio di lavoro."
   },
 
   { id: 5, 

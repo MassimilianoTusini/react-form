@@ -5,12 +5,17 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+body{
+  background-color: #a7c957;
+}
+
 /* Regole Header */
 header {
   display: flex;
   justify-content: center;
   padding: 30px 0;
   font-size: 2rem;
+  color: #386641;
 }
 
 /* Regole Main */
@@ -24,14 +29,61 @@ header {
 
 ul{
   list-style-type: none;
-  margin: 20px 0;
-  border: 1px solid black;
   border-radius: 20px;
+  background-color: #f2e8cf;
 }
 
 li{
   cursor: pointer;
-  margin: 10px 10px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  color: #386641;
+  margin: 10px 0 0 10px;
+}
+
+li:hover{
+  text-decoration: underline;
+}
+
+/* Regole Bottoni  */
+button{
+  background-color: #386641;
+  border: none;
+  cursor: pointer;
+  color: #f2e8cf;
+  padding: 10px 10px;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.add-btn{
+  background-color: #f2e8cf;
+  color: #386641;
+  border: 1px solid #386641;
+}
+
+button:hover{
+  transform: scale(1.05);
+}
+
+/* Regole Form */
+.form{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 30px;
+} 
+
+input{
+  background-color: #f2e8cf;
+  border: 1px solid #386641;
+  border-radius: 20px;
+  color: #386641;
+  width: 200px;
+  transition: 0.3s ease;
+}
+
+input:focus{
+  box-shadow: 0px 0px 20px #386641;
 }
