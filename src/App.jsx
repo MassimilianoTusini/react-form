@@ -1,5 +1,6 @@
 import './App.css'
 import MyHeader from './MyHeader'
+import MyMain from './MyMain'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
   return (
     <>
       <MyHeader/>
+      <MyMain/>
     </>
   )
 }

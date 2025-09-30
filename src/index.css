@@ -2,9 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/* Regole Header */
 header {
   display: flex;
   justify-content: center;
@@ -12,6 +13,25 @@ header {
   font-size: 2rem;
 }
 
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
+/* Regole Main */
+
+.container{
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+/* Regole Lista */
+
+ul{
+  list-style-type: none;
+  margin: 20px 0;
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+li{
+  cursor: pointer;
+  margin: 10px 10px;
+  display: flex;
+  justify-content: space-between;
 }
